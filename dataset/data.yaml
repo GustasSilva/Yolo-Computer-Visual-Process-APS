@@ -1,0 +1,5 @@
+train: ./train/images
+val: ./valid/images
+
+nc: 11  # número de classes
+names: ['chave_de_fenda', 'martelo', 'martelo_de_borracha', 'chave_allen', 'chave_de_boca', 'chave_de_fenda', 'chave_de_roda', 'chave_de_roda', 'chave_estrela', 'chave_inglesa', 'chave_phillips',]
