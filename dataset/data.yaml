@@ -1,5 +1,8 @@
-train: ./train/images
-val: ./valid/images
+train: C:\Users\Gustavo\Desktop\APS YOLO 1.0\dataset\train\images
+val: C:\Users\Gustavo\Desktop\APS YOLO 1.0\dataset\valid\images
 
-nc: 11  # número de classes
-names: ['chave_de_fenda', 'martelo', 'martelo_de_borracha', 'chave_allen', 'chave_de_boca', 'chave_de_fenda', 'chave_de_roda', 'chave_de_roda', 'chave_estrela', 'chave_inglesa', 'chave_phillips',]
+nc: 25  # número de classes
+
+names: ['alicate', 'capacete', 'chave_de_boca', 'chave_de_fenda', 'chave_de_grifo', 'chave_de_roda', 'chave_estrela', 'chave_inglesa', 'chave_phillips', 'esmerilhadeira', 'esquadro', 'estilete', 'fita_isolante', 'furadeira', 'luva', 'martelo_de_borracha', 'martelo', 'nivel', 'oculos_de_protecao', 'paquimetro', 'parafusadeira', 'regua', 'serra_circular', 'serrote', 'trena']
+
+
