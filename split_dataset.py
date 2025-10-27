@@ -78,7 +78,7 @@ for c in missing_classes:
 # 3️⃣ Pega o restante das imagens e divide 80/20
 remaining_labels = list(set(label_files) - val_files)
 random.shuffle(remaining_labels)
-extra_val = int(0.1 * len(remaining_labels))
+extra_val = int(0.05 * len(remaining_labels))
 val_files.update(remaining_labels[:extra_val])
 train_files = list(set(label_files) - val_files)
 

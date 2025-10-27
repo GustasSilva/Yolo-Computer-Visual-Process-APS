@@ -7,7 +7,7 @@ import time
 # ==============================
 # CONFIGURAÇÕES INICIAIS
 # ==============================
-model_path = r"C:\Users\Gustavo\runs\detect\train36\weights\best.pt"
+model_path = r"C:\Users\Gustavo\Desktop\APS YOLO 1.0\models\best.pt"
 
 # Carrega o modelo YOLO treinado (usa GPU se disponível)
 device = "cuda" if torch.cuda.is_available() else "cpu"
